@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.main {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.bloc {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.one {
+    background-color: #ffa704;
+}
+
+.two {
+    background-color: #2f7678;
+}
+
+.three {
+    background-color: #597a5a;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.style {
+    font-size: 2rem;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+
+.text {
+    line-height: 70%;
+    font-size: 0.6rem;
+    margin-top: -10%;
+}
+
+.button {
+    font-size: 0.7rem;
+    cursor: pointer;
+    width: 55%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 15%;
+    padding-top: 5px;
+}
+
+.up {
+    color: #ffa704; 
+}
+
+.center {
+    color: #2f7678;
+}
+
+.down {
+    color: #0e602f;
+}
+
+@media screen and (min-width: 700px){
+
+    .main {
+	padding-top: 200px;
+	border-radius: 20px;
+	flex-direction: row;
+	width: 55% ;
+	height: auto;
+    }
+
+    .bloc {
+	height: 50%;
+	width: 22%;
+	padding-left: 3%;
+    }
+
+    
+    .button {
+	height: 40px;
+	font-size: 1rem;
+	border-radius: 40px;
+    }
+
+    .text {
+	line-height: 90%;
+	font-size: 0.7rem;
+	padding-bottom: 11%;
+    }
+    
+    .style {
+	
+	font-size: 1.7rem;
+    }
+
+}
